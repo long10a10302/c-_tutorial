@@ -5,3 +5,7 @@ D:\Long code\C#\Excercice_1501\Excercice_1501\obj\Debug\Excercice_1501.csproj.As
 D:\Long code\C#\Excercice_1501\Excercice_1501\obj\Debug\Excercice_1501.csproj.CoreCompileInputs.cache
 D:\Long code\C#\Excercice_1501\Excercice_1501\obj\Debug\Excercice_1501.exe
 D:\Long code\C#\Excercice_1501\Excercice_1501\obj\Debug\Excercice_1501.pdb
+D:\Long code\C#\c-_tutorial\Excercice_1501\Excercice_1501\obj\Debug\Excercice_1501.csproj.AssemblyReference.cache
+D:\Long code\C#\c-_tutorial\Excercice_1501\Excercice_1501\obj\Debug\Excercice_1501.csproj.CoreCompileInputs.cache
+D:\Long code\C#\c-_tutorial\Excercice_1501\Excercice_1501\obj\Debug\Excercice_1501.exe
+D:\Long code\C#\c-_tutorial\Excercice_1501\Excercice_1501\obj\Debug\Excercice_1501.pdb

@@ -1,0 +1,7 @@
+D:\Long code\C#\c-_tutorial\Excercice_1501\Excercise_1701\bin\Debug\Excercise_1701.exe.config
+D:\Long code\C#\c-_tutorial\Excercice_1501\Excercise_1701\bin\Debug\Excercise_1701.exe
+D:\Long code\C#\c-_tutorial\Excercice_1501\Excercise_1701\bin\Debug\Excercise_1701.pdb
+D:\Long code\C#\c-_tutorial\Excercice_1501\Excercise_1701\obj\Debug\Excercise_1701.csproj.AssemblyReference.cache
+D:\Long code\C#\c-_tutorial\Excercice_1501\Excercise_1701\obj\Debug\Excercise_1701.csproj.CoreCompileInputs.cache
+D:\Long code\C#\c-_tutorial\Excercice_1501\Excercise_1701\obj\Debug\Excercise_1701.exe
+D:\Long code\C#\c-_tutorial\Excercice_1501\Excercise_1701\obj\Debug\Excercise_1701.pdb

@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Long code\\C#\\Excercice_1501\\",
+  "WorkspaceRootPath": "D:\\Long code\\C#\\c-_tutorial\\Excercice_1501\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49BED2FB-20C0-4353-BD4A-C932BE252D65}|Excercice_1501\\Excercice_1501.csproj|d:\\long code\\c#\\excercice_1501\\excercice_1501\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E58979B-652A-4514-AC4F-7AD469998A60}|Excercie17_01_bai2\\Excercie17_01_bai2.csproj|d:\\long code\\c#\\c-_tutorial\\excercice_1501\\excercie17_01_bai2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E58979B-652A-4514-AC4F-7AD469998A60}|Excercie17_01_bai2\\Excercie17_01_bai2.csproj|solutionrelative:excercie17_01_bai2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AB7775-1AF6-4AB4-8054-69C26C157782}|Excercise_1701\\Excercise_1701.csproj|D:\\Long code\\C#\\c-_tutorial\\Excercice_1501\\excercise_1701\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AB7775-1AF6-4AB4-8054-69C26C157782}|Excercise_1701\\Excercise_1701.csproj|solutionrelative:excercise_1701\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BED2FB-20C0-4353-BD4A-C932BE252D65}|Excercice_1501\\Excercice_1501.csproj|D:\\Long code\\C#\\c-_tutorial\\Excercice_1501\\excercice_1501\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49BED2FB-20C0-4353-BD4A-C932BE252D65}|Excercice_1501\\Excercice_1501.csproj|solutionrelative:excercice_1501\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,14 +32,38 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Long code\\C#\\Excercice_1501\\Excercice_1501\\Program.cs",
-              "RelativeDocumentMoniker": "Excercice_1501\\Program.cs",
-              "ToolTip": "D:\\Long code\\C#\\Excercice_1501\\Excercice_1501\\Program.cs",
-              "RelativeToolTip": "Excercice_1501\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwEwAAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Long code\\C#\\c-_tutorial\\Excercice_1501\\Excercie17_01_bai2\\Program.cs",
+              "RelativeDocumentMoniker": "Excercie17_01_bai2\\Program.cs",
+              "ToolTip": "D:\\Long code\\C#\\c-_tutorial\\Excercice_1501\\Excercie17_01_bai2\\Program.cs",
+              "RelativeToolTip": "Excercie17_01_bai2\\Program.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAqwA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T04:08:19.121Z",
+              "WhenOpened": "2025-02-10T02:50:12.339Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Long code\\C#\\c-_tutorial\\Excercice_1501\\Excercise_1701\\Program.cs",
+              "RelativeDocumentMoniker": "Excercise_1701\\Program.cs",
+              "ToolTip": "D:\\Long code\\C#\\c-_tutorial\\Excercice_1501\\Excercise_1701\\Program.cs",
+              "RelativeToolTip": "Excercise_1701\\Program.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAmwKUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T01:59:06.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Long code\\C#\\c-_tutorial\\Excercice_1501\\Excercice_1501\\Program.cs",
+              "RelativeDocumentMoniker": "Excercice_1501\\Program.cs",
+              "ToolTip": "D:\\Long code\\C#\\c-_tutorial\\Excercice_1501\\Excercice_1501\\Program.cs",
+              "RelativeToolTip": "Excercice_1501\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwC4AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T04:08:19.121Z"
             }
           ]
         }

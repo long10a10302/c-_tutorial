@@ -22,11 +22,11 @@ namespace Excercise20_02
 
         public Doctor(string name, DateTime birthday, string speciality, string email, int rank)
         {
-            this.id = nextId++;
-            this.Name = name;
-            this.BirthDay = birthday;
-            this.Speciality = speciality;
-            this.Email = email;
+            id = nextId++;
+            Name = name;
+            BirthDay = birthday;
+            Speciality = speciality;
+            Email = email;
             this.Rank = rank;
         }
 

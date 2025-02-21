@@ -108,8 +108,16 @@ namespace Excercise20_02
             Console.Write("Enter Doctor ID to delete: ");
             if (int.TryParse(Console.ReadLine(), out int id))
             {
-                management.Remove(id);
-                Console.WriteLine("Doctor deleted successfully!");
+                var doctor = management.GetDoctorcs().FirstOrDefault(d => d.ID == id); // Tìm bác sĩ theo ID
+
+                if (doctor != null)
+                {
+                    management.Remove(doctor); // Gọi Remove với đối tượng bác sĩ
+                }
+                else
+                {
+                    Console.WriteLine("Doctor not found.");
+                }
             }
             else
             {

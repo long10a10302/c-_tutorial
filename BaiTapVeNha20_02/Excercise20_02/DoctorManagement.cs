@@ -10,7 +10,7 @@ namespace _250220.Assignment16
 {
     public class DoctorManagement
     {
-        private List<IDoctorcs> doctorList = new List<IDoctorcs>();
+        public List<IDoctorcs> doctorList = new List<IDoctorcs>();
 
 
         public void Add(IDoctorcs doctor)

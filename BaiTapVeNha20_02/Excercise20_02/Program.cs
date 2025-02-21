@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _250220.Assignment16;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -100,6 +101,7 @@ namespace Excercise20_02
         {
             management.Sort(new SortByRank());
             Console.WriteLine("Doctors sorted by Rank!");
+            ViewDoctors();
         }
         static void DeleteDoctor()
         {

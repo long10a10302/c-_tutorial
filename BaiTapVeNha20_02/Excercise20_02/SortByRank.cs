@@ -7,14 +7,19 @@ using System.Threading.Tasks;
 
 namespace Excercise20_02
 {
-    public class SortByRank : IComparer
+    public class SortByRank : IComparer<IDoctorcs>
     {
-        public int Compare(object x, object y)
+        public int Compare(IDoctorcs x, IDoctorcs y)
         {
+            if (x == null || y == null)
+            {
+                throw new ArgumentException("Both doctors must be non-null.");
+            }
             Doctor d1 = (Doctor)x;
             Doctor d2 = (Doctor)y;
-            return d1.getRank().CompareTo((int)d2.getRank());
+            return d1.getRank().CompareTo(d2.getRank());
         }
     }
+
 
 }

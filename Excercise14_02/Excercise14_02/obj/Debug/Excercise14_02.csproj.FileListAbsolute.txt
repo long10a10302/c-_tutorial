@@ -5,3 +5,10 @@ D:\Long code\C#\c-_tutorial\Excercise14_02\Excercise14_02\obj\Debug\Excercise14_
 D:\Long code\C#\c-_tutorial\Excercise14_02\Excercise14_02\obj\Debug\Excercise14_02.csproj.CoreCompileInputs.cache
 D:\Long code\C#\c-_tutorial\Excercise14_02\Excercise14_02\obj\Debug\Excercise14_02.exe
 D:\Long code\C#\c-_tutorial\Excercise14_02\Excercise14_02\obj\Debug\Excercise14_02.pdb
+C:\Users\Admin\source\repos\long10a10302\c-_tutorial\Excercise14_02\Excercise14_02\obj\Debug\Excercise14_02.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\long10a10302\c-_tutorial\Excercise14_02\Excercise14_02\obj\Debug\Excercise14_02.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\long10a10302\c-_tutorial\Excercise14_02\Excercise14_02\obj\Debug\Excercise14_02.exe
+C:\Users\Admin\source\repos\long10a10302\c-_tutorial\Excercise14_02\Excercise14_02\obj\Debug\Excercise14_02.pdb
+C:\Users\Admin\source\repos\long10a10302\c-_tutorial\Excercise14_02\Excercise14_02\bin\Debug\Excercise14_02.exe.config
+C:\Users\Admin\source\repos\long10a10302\c-_tutorial\Excercise14_02\Excercise14_02\bin\Debug\Excercise14_02.exe
+C:\Users\Admin\source\repos\long10a10302\c-_tutorial\Excercise14_02\Excercise14_02\bin\Debug\Excercise14_02.pdb

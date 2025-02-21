@@ -27,6 +27,7 @@ namespace Excercise14_02
 
             product.AddQuantity(moreQuantity);
             product.ShowDetail();
+            Console.ReadKey();
         }
     }
 }

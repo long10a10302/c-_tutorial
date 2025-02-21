@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\long10a10302\c-_tutorial\BaiTapVeNha20_02\Excercise20_02\bin\Debug\Excercise20_02.exe.config
+C:\Users\Admin\source\repos\long10a10302\c-_tutorial\BaiTapVeNha20_02\Excercise20_02\bin\Debug\Excercise20_02.exe
+C:\Users\Admin\source\repos\long10a10302\c-_tutorial\BaiTapVeNha20_02\Excercise20_02\bin\Debug\Excercise20_02.pdb
+C:\Users\Admin\source\repos\long10a10302\c-_tutorial\BaiTapVeNha20_02\Excercise20_02\obj\Debug\Excercise20_02.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\long10a10302\c-_tutorial\BaiTapVeNha20_02\Excercise20_02\obj\Debug\Excercise20_02.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\long10a10302\c-_tutorial\BaiTapVeNha20_02\Excercise20_02\obj\Debug\Excercise20_02.exe
+C:\Users\Admin\source\repos\long10a10302\c-_tutorial\BaiTapVeNha20_02\Excercise20_02\obj\Debug\Excercise20_02.pdb

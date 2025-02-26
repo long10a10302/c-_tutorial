@@ -19,7 +19,7 @@ namespace NSBooks
         string Language { get; set; }
         
         // Giá trung bình (chỉ đọc)
-        float AveragePrice { set; }
+        float AveragePrice { get; }
         
         // Indexer để truy cập danh sách giá
         int? this[int index] { get; set; }

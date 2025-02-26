@@ -15,8 +15,7 @@ namespace NSBooks
         // Property chỉ set cho giá trung bình
         public float AveragePrice 
         { 
-            
-            set { _averagePrice = value; }
+            get { return _averagePrice; }
         }
 
         // Mảng để lưu trữ danh sách giá, cho phép null

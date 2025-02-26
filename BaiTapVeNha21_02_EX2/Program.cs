@@ -6,38 +6,105 @@ namespace BaiTapVeNha21_02_EX2
     {
         static void Main(string[] args)
         {
-            // Tạo thể hiện của Book
-            IBook theBook = new Book();
+            OnlineShopBook BookShop = new OnlineShopBook();
+            bool exit = false;
 
-            // Nhập thông tin sách
-            Console.WriteLine("=== Enter Book Information ===");
-            
-            Console.Write("Enter book name: ");
-            string name = Console.ReadLine() ?? string.Empty;
-
-            Console.Write("Enter author name: ");
-            string authorname = Console.ReadLine() ?? string.Empty;
-
-            Console.Write("Enter subject: ");
-            string subject = Console.ReadLine() ?? string.Empty;
-
-            double buyingprice = 0;
-            while (true)
+            while (!exit)
             {
-                Console.Write("Enter buying price: ");
-                if (double.TryParse(Console.ReadLine(), out buyingprice) && buyingprice > 0)
-                    break;
-                Console.WriteLine("Invalid price. Please enter a positive number.");
+                Console.WriteLine("\n=== Main Menu ===");
+                Console.WriteLine("1. Admin");
+                Console.WriteLine("2. Customer");
+                Console.WriteLine("3. Exit");
+                Console.Write("Enter your choice: ");
+
+                string choice = Console.ReadLine();
+
+                switch (choice)
+                {
+                    case "1":
+                        AdminMenu(BookShop);
+                        break;
+                    case "2":
+                        CustomerMenu(BookShop);
+                        break;
+                    case "3":
+                        exit = true;
+                        break;
+                    default:
+                        Console.WriteLine("Invalid choice!");
+                        break;
+                }
             }
+        }
 
-            // Thiết lập thông tin sách
-            theBook.SetDetail(name, authorname, subject, buyingprice);
+        static void AdminMenu(OnlineShopBook BookShop)
+        {
+            bool back = false;
+            while (!back)
+            {
+                Console.WriteLine("\n=== Admin Menu ===");
+                Console.WriteLine("1. Import book to the store");
+                Console.WriteLine("2. Show the store in detail");
+                Console.WriteLine("3. Change a book selling price");
+                Console.WriteLine("4. Show profits");
+                Console.WriteLine("5. Back");
+                Console.Write("Enter your choice: ");
 
-            // Hiển thị thông tin sách
-            theBook.ShowDetail();
+                string choice = Console.ReadLine();
 
-            Console.WriteLine("\nPress any key to exit...");
-            Console.ReadKey();
+                switch (choice)
+                {
+                    case "1":
+                        BookShop.ImportBook();
+                        break;
+                    case "2":
+                        BookShop.ShowDetail();
+                        break;
+                    case "3":
+                        BookShop.ChangeSellingPrice();
+                        break;
+                    case "4":
+                        BookShop.ShowProfits();
+                        break;
+                    case "5":
+                        back = true;
+                        break;
+                    default:
+                        Console.WriteLine("Invalid choice!");
+                        break;
+                }
+            }
+        }
+
+        static void CustomerMenu(OnlineShopBook BookShop)
+        {
+            bool back = false;
+            while (!back)
+            {
+                Console.WriteLine("\n=== Customer Menu ===");
+                Console.WriteLine("1. Show all books of store");
+                Console.WriteLine("2. Buy a book");
+                Console.WriteLine("3. Back");
+                Console.Write("Enter your choice: ");
+
+                string choice = Console.ReadLine();
+
+                switch (choice)
+                {
+                    case "1":
+                        BookShop.Show();
+                        break;
+                    case "2":
+                        BookShop.SellABook();
+                        break;
+                    case "3":
+                        back = true;
+                        break;
+                    default:
+                        Console.WriteLine("Invalid choice!");
+                        break;
+                }
+            }
         }
     }
 

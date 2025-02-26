@@ -69,8 +69,7 @@ namespace NSBookTest
             while (true)
             {
                 Console.Write("Enter publish date (dd/MM/yyyy): ");
-                if (DateTime.TryParseExact(Console.ReadLine(), "dd/MM/yyyy", null, 
-                    System.Globalization.DateTimeStyles.None, out DateTime publishDate))
+                if (DateTime.TryParse(Console.ReadLine(), out DateTime publishDate))
                 {
                     book.PublishDate = publishDate;
                     break;

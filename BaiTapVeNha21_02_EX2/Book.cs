@@ -27,12 +27,30 @@ namespace BaiTapVeNha21_02_EX2
         }
 
         // Properties implementation
-        public string ID => _ID;
-        public string Name => _Name;
-        public string AuthorName => _AuthorName;
-        public string Subject => _Subject;
-        public double BuyingPrice => _BuyingPrice;
-        public double SellingPrice => _SellingPrice;
+        public string ID
+        {
+            get { return _ID; }
+        }
+        public string Name 
+        {
+            get { return _Name; }
+        }
+        public string AuthorName
+        {
+            get { return _AuthorName; }
+        }
+        public string Subject
+        {
+            get { return _Subject; }
+        }
+        public double BuyingPrice
+        {
+            get { return _BuyingPrice; }
+        }
+        public double SellingPrice
+        {
+            get { return _SellingPrice; }
+        }
 
         // Methods implementation
         public void ShowDetail()

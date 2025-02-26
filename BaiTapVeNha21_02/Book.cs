@@ -12,10 +12,11 @@ namespace NSBooks
 
         // Biến private để lưu giá trung bình
         private float _averagePrice;
-        // Property chỉ đọc cho giá trung bình
+        // Property chỉ set cho giá trung bình
         public float AveragePrice 
         { 
-            get { return _averagePrice; }
+            
+            set { _averagePrice = value; }
         }
 
         // Mảng để lưu trữ danh sách giá, cho phép null
@@ -47,9 +48,9 @@ namespace NSBooks
             // Lấy các giá không null và chuyển thành số
             var validPrices = PriceList.Where(p => p.HasValue).Select(p => p.Value);
             if (validPrices.Any())
-                _averagePrice = validPrices.Average();
-            else
-                _averagePrice = 0;
+                AveragePrice = (float)validPrices.Average();
+            else    
+                AveragePrice = 0;
         }
 
         // Phương thức hiển thị thông tin sách
@@ -59,7 +60,7 @@ namespace NSBooks
             Console.WriteLine($"Publish Date: {PublishDate:dd/MM/yyyy}");
             Console.WriteLine($"Author: {Author}");
             Console.WriteLine($"Language: {Language}");
-            Console.WriteLine($"Average Price: {AveragePrice}");
+            Console.WriteLine($"Average Price: {_averagePrice}");
             Console.WriteLine();
         }
     }
